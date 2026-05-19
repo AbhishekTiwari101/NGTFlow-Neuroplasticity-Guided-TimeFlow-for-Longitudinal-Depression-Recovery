@@ -1,0 +1,19 @@
+
+---
+
+### 2. `requirements.txt`
+
+```txt
+torch>=2.1.0
+torchdiffeq>=0.6.0
+torchvision
+monai
+nibabel
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+pyyaml
+einops
