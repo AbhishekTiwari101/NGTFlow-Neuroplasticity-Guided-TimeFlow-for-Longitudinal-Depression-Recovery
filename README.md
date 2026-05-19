@@ -46,4 +46,9 @@ git clone https://github.com/AbhishekTiwari101/NGTFlow.git
 cd NGTFlow
 pip install -e .
 
+# Train
+python scripts/train.py --config configs/default.yaml
+
+# Inference
+python scripts/infer.py --baseline_mri path/to/baseline.nii.gz --time_months 12
 
